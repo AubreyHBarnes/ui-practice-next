@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function BlogCard() {
     return (
-        <>
+        <div>
+            <h2 className="text-white"> Blog Card</h2>
             <div className="card-wrapper max-w-[350px] bg-white text-black rounded-xl">
                 <div className="ImgWrapper">
                     <Image
@@ -30,6 +31,6 @@ export default function BlogCard() {
                     alt="" /></span></a>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
